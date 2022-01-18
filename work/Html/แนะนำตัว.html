@@ -1,0 +1,86 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>แนะนำตัว</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1>แนะนำตัว</h1>
+            <center>
+                <img src="263050209_628963078552089_3566459291466146612_n1.jpg" alt="รูปแนะนำตัว">
+            </center>
+        </header>
+
+        <section id="reason" onmouseover="reasonHover()" onmouseout="reasonNormal()">
+            <div>
+                <h2>
+                    ประวัติส่วนตัว
+                    <i class="far fa-lightbulb" aria-hidden="true"></i>
+                </h2>
+                <ul>
+                    <li>ชื่อ : นายคุณาสิน บรรพกาญจน์</li>
+                    <li>ชื่อเล่น : มาร์ค </li>
+                    <li>ความรู้เกี่ยวกับคอม : พื้นฐาน Python Html</li>
+                    <li>อาชีพในฝัน : โปรแกรมเมอร์ นักพัฒนาเกม พัฒนาซอฟแวร์ </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="success" onmouseover="successHover()" onmouseout="successNormal()">
+            <div>
+                <h2>
+                    เหตุผลที่อยากเข้าคณะนี้
+                    <i class="fas fa-scroll" aria-hidden="true"></i>
+                </h2>
+                <ol>
+                    <li>
+                        ชอบทำงานเกี่ยวกับคอม
+                    </li>
+                    <li>
+                        ชอบความทันสมัย
+                    </li>
+                    <li>
+                        สายงานที่เกี่ยวกับเทคโนโลยีมีให้เลือกหลากหลายหางานง่าย
+                    </li>
+                    <li>
+                        ชอบการสร้างสรรค์ การออกแบบผลงานต่างๆ
+                    </li>
+                    <li>
+                        ช่วยฝึกให้คิดแบบเป็นระบบ
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <footer>
+                <h4>
+                    facebook : <a href="https://www.facebook.com/kunasin.bunpagan/" target="_blank"><i
+                            class="fab fa-facebook"> kunasinmark</i></a>
+                    <p>phone : 096-932-2923</p>
+                </h4>
+        </footer>
+    </div>
+    <script>
+        function reasonHover() {
+            document.getElementById("reason").style.fontSize = "150%";
+        }
+        function reasonNormal() {
+            document.getElementById("reason").style.fontSize = "100%";
+        }
+        function successHover() {
+            document.getElementById("success").style.fontSize = "150%";
+        }
+        function successNormal() {
+            document.getElementById("success").style.fontSize = "100%";
+        }
+    </script>
+</body>
+
+</html>
